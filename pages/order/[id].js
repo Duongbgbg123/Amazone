@@ -361,7 +361,7 @@ function Order({ params }) {
                         <PayPalButtons
                           createOrder={createOrder}
                           onApprove={onApprove}
-                          onError={onError}
+                          onError=onError
                         ></PayPalButtons>
                       </div>
                     )}
